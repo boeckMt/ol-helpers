@@ -23,3 +23,19 @@ export function addLayer(map, layer, filtertype) {
 export function getLayersForType(map, filtertype) {
   return map.getLayers().getArray().filter(layer => layer.get(FiltertypeKey) === filtertype)
 }
+
+
+/**
+ * 
+ * @param {Map} map
+ * @param {string} key
+ * @param {any} value
+ * @param {string=} filtertype 
+ */
+export function getLayerByKey(map, key, value, filtertype){
+  let filtered = [];
+  if (filtertype) {
+    filtered = map.getLayers().getArray().filter(layer => layer.get(FiltertypeKey) === filtertype);
+  }
+  
+}
