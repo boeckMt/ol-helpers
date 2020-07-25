@@ -1,7 +1,7 @@
 {
-  "name": "ol-helpers",
-  "version": "1.0.0",
-  "description": "An example of how to author openlayers plugin using webpack",
+  "name": "@boeckmt/ol-helpers",
+  "version": "0.0.1",
+  "description": "An example of how to author openlayers plugin/helpers using webpack",
   "main": "dist/ol-helpers.js",
   "scripts": {
     "build": "webpack --config=webpack.config.babel.js",
